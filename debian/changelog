@@ -1,0 +1,5 @@
+kaidan (0.0.1-1) experimental; urgency=medium
+
+  * Initial release of the debian package
+
+ -- JBBgameich <jbb.mail@gmx.de>  Mon, 13 Feb 2017 19:11:03 +0100

@@ -1,0 +1,48 @@
+Source: kaidan
+Section: comm
+Priority: optional
+Maintainer: Kaidan Team <gamerbude@lnj.li>
+Build-Depends: debhelper (>= 9),
+               zlib1g-dev, 
+               libglib2.0-dev, 
+               libssl-dev,
+               libxml2-dev,
+               libcrypto++-dev,
+               libpthread-stubs0-dev,
+               libidn11-dev,
+               libminiupnpc-dev,
+               libnatpmp-dev,
+               libswiften-dev,
+               libboost-signals-dev,
+               libboost-system-dev,
+               libboost-thread-dev,
+               libboost-regex-dev,
+               libboost-program-options-dev,
+               libboost-filesystem-dev,
+               libboost-serialization-dev,
+               libboost-date-time-dev,
+               qtdeclarative5-dev,
+               qttools5-dev,
+               libqt5core5a
+Standards-Version: 3.9.8
+Homepage: https://github.com/kaidanim/kaidan/
+Vcs-Git: git://github.com/kaidanim/kaidan.git
+Vcs-Browser: https://github.com/kaidanim/kaidan/
+
+Package: kaidan
+Architecture: any
+Depends: libqt5quick5,
+         libqt5quickcontrols2-5,
+         libqt5quickwidgets5,
+         libqt5quickwidgets5,
+         libqt5network5,
+         libqt5gui5,
+         libqt5core5a,
+         qml-module-qtquick-controls2,
+         qml-module-org-kde-kirigami,
+         ${misc:Depends},
+         ${shlibs:Depends} 
+Description: Messenger (XMPP) client for desktop and mobile devices
+ Kaidan is a messenger that aims to have
+ a stylish and easy to use QML interface,
+ but also to be as secure as possible.
