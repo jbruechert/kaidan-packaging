@@ -16,6 +16,7 @@ Build-Depends: debhelper (>= 9),
                libboost-signals-dev,
                qtdeclarative5-dev,
                qttools5-dev,
+               cmake,
 Standards-Version: 3.9.8
 Homepage: https://github.com/kaidanim/kaidan/
 Vcs-Git: git://github.com/kaidanim/kaidan.git
